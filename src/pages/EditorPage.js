@@ -18,7 +18,7 @@ import {
     useParams,
 } from 'react-router-dom';
 
-const socket = io.connect("http://localhost:5000");
+const socket = io.connect();
 
 const EditorPage = () => {
 
